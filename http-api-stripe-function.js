@@ -305,3 +305,4 @@ async function getStripeSessionDetails(sessionId) {
 
   const sessionDetails = await sendHttpRequest(apiUrl, options);
   return JSON.parse(sessionDetails);
+}
